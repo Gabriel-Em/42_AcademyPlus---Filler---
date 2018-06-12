@@ -6,7 +6,7 @@
 #    By: gpop <marvin@42.fr>                        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/06/03 18:59:56 by gpop              #+#    #+#              #
-#    Updated: 2018/06/12 23:56:53 by gpop             ###   ########.fr        #
+#    Updated: 2018/06/13 02:39:58 by gpop             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,7 @@ all: $(NAME)
 
 $(NAME):
 	@make -C $(LIB_DIR)
-	@$(CC) -I $(LIB_INC) -I $(INC_DIR) $(CFLAGS) -c $(SRC)
+	@$(CC) -I $(LIB_INC) -I $(INC_DIR) -I $(MLX_DIR) $(CFLAGS) -c $(SRC)
 	@$(CC) $(OBJ) $(LIB_LINK) $(MLX_LINK) $(MLXFLAGS) -o $(NAME) 
 	
 clean:
