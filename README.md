@@ -105,4 +105,4 @@ Using a terminal from within the /filler/visualizer directory:
   
 ## Visualizer demo:
 
-!! will be added in less than 3 hours
+![demo](https://github.com/Gabriel-Em/42_AcademyPlus---filler---/blob/master/filler/resources/demo.gif)
